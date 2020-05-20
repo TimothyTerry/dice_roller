@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="./stylesheet/style.css">
+</head>
+
+<body>
+  
+    <div class="inputbar">
+    <label for="name">Number of Roll:</label>
+    <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
+   </div>
+
+ 
+
+   <div class="controls">
+
+    <label for="id">Dice Sides:</label>
+    <input type="text" id="id" name="id" />
+
+</div>
+
+  
+
+    <button id="rollDice">Roll Dice</button>
+    <Button class="button2">Show all Rolls</Button>
+    <button class="button3">Restart Match</button>
+    <div id="status"></div>
+    <!-- <div id="die1" class="dice">0</div> -->
+    <!-- <div id="die2" class="dice">0</div> -->
+
+    <div class=sums>
+        <ol id="showme">
+        </ol>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./java/main.js"></script>
+</body>
+
+</html>

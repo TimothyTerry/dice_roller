@@ -1,0 +1,17 @@
+li {
+        width: 20px;
+        background: pink;
+        font-size: 20px;
+        text-align: center;
+        margin: 5px;
+    
+        list-style: none;
+        border-radius: 3px;
+}
+
+   
+#rowdice {
+        width: 20px;
+
+}
+
